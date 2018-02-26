@@ -188,16 +188,6 @@ function printBarChart(cities, dataSets, chartId) {
         }
     });
 }
-/*
-        data: {
-            labels: cities,
-            datasets: [{
-                label: 'Revenu',
-                data: values,
-                backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"]
-            }]
-        }
-*/
 
 function printBarChartDoughnut() {
         Chart.pluginService.register({
